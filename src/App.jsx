@@ -156,7 +156,7 @@ const ParkourPresentation = () => {
                 'Calcular frecuencias y porcentajes para cada categoría',
                 'Aplicar la prueba de Chi-cuadrado de independencia',
                 'Analizar la relación entre género, horas y motivación',
-                'Estimar el tamaño del efecto mediante V de Cramér',
+                
                 'Calcular intervalos de confianza para proporciones'
               ].map((obj, idx) => (
                 <div key={idx} className="flex items-start gap-4 bg-blue-900 bg-opacity-20 p-6 rounded-xl border border-blue-700">
@@ -252,10 +252,6 @@ const ParkourPresentation = () => {
                 <div className="bg-blue-900 bg-opacity-30 p-4 rounded-lg">
                   <p className="font-bold text-yellow-400">Chi-cuadrado de independencia</p>
                   <p className="text-sm text-gray-300 mt-2">Determinar asociación entre variables categóricas</p>
-                </div>
-                <div className="bg-blue-900 bg-opacity-30 p-4 rounded-lg">
-                  <p className="font-bold text-yellow-400">V de Cramér</p>
-                  <p className="text-sm text-gray-300 mt-2">Medir intensidad de la asociación</p>
                 </div>
                 <div className="bg-blue-900 bg-opacity-30 p-4 rounded-lg">
                   <p className="font-bold text-yellow-400">Intervalos de Confianza</p>
